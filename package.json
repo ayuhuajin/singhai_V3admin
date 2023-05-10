@@ -10,10 +10,14 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "dev:doc": "vitepress dev docs",
+    "build:doc": "vitepress build docs",
+    "serve:doc": "vitepress serve docs"
   },
   "dependencies": {
     "pinia": "^2.0.35",
+    "vitepress": "^1.0.0-alpha.75",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
