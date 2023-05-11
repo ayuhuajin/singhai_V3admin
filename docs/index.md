@@ -1,52 +1,32 @@
 ---
 layout: home
-title: singhai
-description: singhai文档
 
+title: 选项卡标题
+titleTemplate: 选项卡描述
+editLink: true
+lastUpdated: true
 hero:
-  name: 文档
-  text:
-  tagline: singhai文档
+  name: 组件库名称
+  text: 组件库文本
+  tagline: 组件库副标题描述
+  image:
+    src: /img/logo.svg
+    alt: YYG Admin UI
   actions:
     - theme: brand
-      text: 开始
-      link: /pages/index
+      text: 快速开始
+      link: /pages/
     - theme: alt
-      text: 访问github
-      link: https://github.com/Yinzhuo19970516/vue-template
+      text: 组件
+      link: /components/
+features:
+  - icon: 🔨
+    title: 功能/特点 1
+    details: 功能/特点 1 具体描述信息。
+  - icon: 🧩
+    title: 功能/特点 2
+    details: 功能/特点 2 具体描述信息。
+  - icon: ✈️
+    title: 功能/特点 3。
+    details: 功能/特点 3 具体描述信息。
 ---
-
-    ::: info
-    This is an info box.
-    :::
-
-    ::: tip
-    This is a tip.
-    :::
-
-    ::: warning
-    This is a warning.
-    :::
-
-    ::: danger
-    This is a dangerous warning.
-    :::
-
-    ::: details
-    This is a details block.
-    :::
-
-    ```js
-    export default {
-      name: 'MyComponent'
-      // ...
-    }
-    ```
-
-    ```html
-    <ul>
-      <li v-for="todo in todos" :key="todo.id">{{ todo.text }}</li>
-    </ul>
-    ```
-
-    ![一张图片](/img/logo.svg)

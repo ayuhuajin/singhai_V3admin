@@ -25,23 +25,44 @@ module.exports = {
   ],
   // 主题配置
   themeConfig: {
-    // socialLinks: [
-    //   //右上角图标和链接，icon 可用svg 配置
-    //   { icon: 'github', link: 'https://github.com/Yinzhuo19970516/vue-template' },
-    //   { icon: 'slack', link: 'https://juejin.cn/user/1011206428301774' }
-    // ],
-    // lastUpdatedText: '更新时间',
-    // siteTitle: 'vue3',
+    logo: '/img/logo.svg',
+    search: {
+      provider: 'local'
+    },
+    socialLinks: [
+      //右上角图标和链接，icon 可用svg 配置
+      { icon: 'github', link: 'https://github.com/Yinzhuo19970516/vue-template' },
+      { icon: 'slack', link: 'https://juejin.cn/user/1011206428301774' }
+    ],
+    lastUpdatedText: '更新时间',
     //   头部导航
+    siteTitle: 'singHai',
+    outline: 30,
     nav: [
       { text: '首页', link: '/pages/' },
-      { text: '项目简介', link: '/pages/' },
+
+      {
+        text: '项目简介',
+        // link: '/pages/',
+        items: [
+          //这种格式是有下拉菜单的版本
+          { text: '基础', link: '/pages/' }, //text代表每一项的名字，link是连接的位置
+          { text: 'Vue', link: '/pages/' },
+          { text: 'React', link: '/pages/' },
+          { text: '小程序', link: '/articles/mini/index' },
+          { text: 'Electron', link: '/articles/electron/index' },
+          { text: 'Web3D', link: '/articles/web3d/index' },
+          { text: '其他', link: '/articles/other/vitepress/index' }
+        ]
+      },
       { text: '百度', link: 'http://www.baidu.com' }
     ],
     //   侧边导航
     sidebar: [
       {
         text: 'Vue3快速开始',
+        collapsible: false, //是不是可以动态展开
+        collapsed: false, //默认是不是展开
         items: [
           { text: 'vue3', link: 'pages/vue3/index' },
           { text: 'ts', link: 'pages/vue3/lesson1' }
