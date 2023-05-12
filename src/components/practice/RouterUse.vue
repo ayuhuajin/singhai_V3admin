@@ -11,9 +11,9 @@ const router = useRouter()
 const { proxy } = getCurrentInstance() as any
 console.log(router, proxy, 7897)
 
-function deposeFn() {
-  return '这是一个deposeFn'
-}
+// function deposeFn() {
+//   return '这是一个deposeFn'
+// }
 function routerPushByParams() {
   router.push({
     path: '/about',

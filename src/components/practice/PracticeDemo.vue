@@ -5,12 +5,18 @@
   <RefDemo ref="refDemo" :msg="refStr" @clickButton="getCount"></RefDemo>
   <RouterUse></RouterUse>
   <AxiosDemo></AxiosDemo>
+  <ReactiveDemo></ReactiveDemo>
+  <WatchDemo></WatchDemo>
+  <ComputedDemo></ComputedDemo>
 </template>
 <script setup lang="ts">
 import { useMouse } from '@/hooks/practice/useMouse'
 import RefDemo from '@/components/practice/RefDemo.vue'
 import RouterUse from '@/components/practice/RouterUse.vue'
 import AxiosDemo from '@/components/practice/AxiosDemo.vue'
+import ReactiveDemo from '@/components/practice/ReactiveDemo.vue'
+import WatchDemo from '@/components/practice/WatchDemo.vue'
+import ComputedDemo from '@/components/practice/computedDemo.vue'
 
 // 获取depose 变量 函数
 const refDemo = ref()
