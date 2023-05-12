@@ -4,6 +4,11 @@
   </div>
 </template>
 
+<script setup lang="ts" name="AboutView">
+const route = useRoute()
+console.log(route.fullPath, 234)
+</script>
+
 <style>
 @media (min-width: 1024px) {
   .about {

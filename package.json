@@ -16,6 +16,7 @@
     "serve:doc": "vitepress serve docs"
   },
   "dependencies": {
+    "element-plus": "^2.3.4",
     "pinia": "^2.0.35",
     "vitepress": "^1.0.0-alpha.75",
     "vue": "^3.2.47",
