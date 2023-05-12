@@ -8,6 +8,7 @@
   <ReactiveDemo></ReactiveDemo>
   <WatchDemo></WatchDemo>
   <ComputedDemo></ComputedDemo>
+  <EchartDemo></EchartDemo>
 </template>
 <script setup lang="ts">
 import { useMouse } from '@/hooks/practice/useMouse'
@@ -17,6 +18,7 @@ import AxiosDemo from '@/components/practice/AxiosDemo.vue'
 import ReactiveDemo from '@/components/practice/ReactiveDemo.vue'
 import WatchDemo from '@/components/practice/WatchDemo.vue'
 import ComputedDemo from '@/components/practice/computedDemo.vue'
+import EchartDemo from '@/components/practice/EchartDemo.vue'
 
 // 获取depose 变量 函数
 const refDemo = ref()

@@ -55,3 +55,27 @@ npm run lint
 aboutView 没有设置 setup 导致路由引入时 报 cannot find module
 而且语法使用的是ts语法。vuecli会用ts语法解析和校验
 ```
+
+```js
+如果使用 Typescript，需要设置 dts 为 true
+AutoImport({
+  dts: true // or a custom path
+})
+```
+
+```js
+如果使用 Typescript，需要设置 dts 为 true
+AutoImport({
+  eslintrc: {
+    enabled: true
+  }
+})
+```
+
+````js
+// .eslintrc.js
+module.exports = {
+  extends: ['./.eslintrc-auto-import.json']
+}
+``` -->
+````
