@@ -4,11 +4,13 @@
   {{ countNumber }}
   <RefDemo ref="refDemo" :msg="refStr" @clickButton="getCount"></RefDemo>
   <RouterUse></RouterUse>
+  <AxiosDemo></AxiosDemo>
 </template>
 <script setup lang="ts">
 import { useMouse } from '@/hooks/practice/useMouse'
 import RefDemo from '@/components/practice/RefDemo.vue'
 import RouterUse from '@/components/practice/RouterUse.vue'
+import AxiosDemo from '@/components/practice/AxiosDemo.vue'
 
 // 获取depose 变量 函数
 const refDemo = ref()
