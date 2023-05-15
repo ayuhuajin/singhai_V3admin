@@ -11,7 +11,7 @@
   <el-button type="primary" @click="handSum1">修改sum1</el-button>
   <el-button type="primary" @click="handSum2">修改sum2</el-button>
 </template>
-<script setup lang="ts">
+<script setup lang="ts" name="ComputedDemo">
 const msg = ref('hello vue3-computed')
 const reverseMsg = computed(() => {
   return msg.value.split('').reverse().join('')
@@ -35,6 +35,19 @@ function handSum2() {
 onMounted(() => {
   console.log('computed模板')
 })
+onActivated(() => {
+  console.log('onActivated')
+})
+onDeactivated(() => {
+  console.log('onDeactivated')
+})
+</script>
+<script lang="ts">
+export default {
+  name: 'ComputedDemo'
+  // inheritAttrs: false,
+  // customOptions: {}
+}
 </script>
 <style scoped lang="scss">
 @import '@/assets/common.scss';
