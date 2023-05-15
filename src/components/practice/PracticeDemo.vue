@@ -3,24 +3,26 @@
   <div>mouse position is {{ x }} {{ y }}</div>
   {{ countNumber }}
   <RefDemo ref="refDemo" :msg="refStr" @clickButton="getCount"></RefDemo>
-  <RouterUse></RouterUse>
+  <!-- <RouterUse></RouterUse>
   <AxiosDemo></AxiosDemo>
   <ReactiveDemo></ReactiveDemo>
   <WatchDemo></WatchDemo>
   <ComputedDemo></ComputedDemo>
   <EchartDemo></EchartDemo>
-  <KeepAliveDemo></KeepAliveDemo>
+  <KeepAliveDemo></KeepAliveDemo> -->
+  <shallowDemo></shallowDemo>
 </template>
 <script setup lang="ts">
 import { useMouse } from '@/hooks/practice/useMouse'
 import RefDemo from '@/components/practice/RefDemo.vue'
-import RouterUse from '@/components/practice/RouterUse.vue'
-import AxiosDemo from '@/components/practice/AxiosDemo.vue'
-import ReactiveDemo from '@/components/practice/ReactiveDemo.vue'
-import WatchDemo from '@/components/practice/WatchDemo.vue'
-import ComputedDemo from '@/components/practice/computedDemo.vue'
-import EchartDemo from '@/components/practice/EchartDemo.vue'
-import KeepAliveDemo from '@/components/practice/KeepAlive.vue'
+// import RouterUse from '@/components/practice/RouterUse.vue'
+// import AxiosDemo from '@/components/practice/AxiosDemo.vue'
+// import ReactiveDemo from '@/components/practice/ReactiveDemo.vue'
+// import WatchDemo from '@/components/practice/WatchDemo.vue'
+// import ComputedDemo from '@/components/practice/computedDemo.vue'
+// import EchartDemo from '@/components/practice/EchartDemo.vue'
+// import KeepAliveDemo from '@/components/practice/KeepAlive.vue'
+import shallowDemo from '@/components/practice/shallowDemo.vue'
 
 // 获取depose 变量 函数
 const refDemo = ref()
