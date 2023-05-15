@@ -11,6 +11,7 @@
   <EchartDemo></EchartDemo>
   <KeepAliveDemo></KeepAliveDemo> -->
   <shallowDemo></shallowDemo>
+  <SlotDemo></SlotDemo>
 </template>
 <script setup lang="ts">
 import { useMouse } from '@/hooks/practice/useMouse'
@@ -23,6 +24,7 @@ import RefDemo from '@/components/practice/RefDemo.vue'
 // import EchartDemo from '@/components/practice/EchartDemo.vue'
 // import KeepAliveDemo from '@/components/practice/KeepAlive.vue'
 import shallowDemo from '@/components/practice/shallowDemo.vue'
+import SlotDemo from '@/components/practice/SlotDemo.vue'
 
 // 获取depose 变量 函数
 const refDemo = ref()
