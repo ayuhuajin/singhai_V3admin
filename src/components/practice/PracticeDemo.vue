@@ -9,9 +9,10 @@
   <WatchDemo></WatchDemo>
   <ComputedDemo></ComputedDemo>
   <EchartDemo></EchartDemo>
-  <KeepAliveDemo></KeepAliveDemo> -->
+  <KeepAliveDemo></KeepAliveDemo>
   <shallowDemo></shallowDemo>
-  <SlotDemo></SlotDemo>
+  <SlotDemo></SlotDemo> -->
+  <WatchEffectDemo></WatchEffectDemo>
 </template>
 <script setup lang="ts">
 import { useMouse } from '@/hooks/practice/useMouse'
@@ -23,8 +24,9 @@ import RefDemo from '@/components/practice/RefDemo.vue'
 // import ComputedDemo from '@/components/practice/computedDemo.vue'
 // import EchartDemo from '@/components/practice/EchartDemo.vue'
 // import KeepAliveDemo from '@/components/practice/KeepAlive.vue'
-import shallowDemo from '@/components/practice/shallowDemo.vue'
-import SlotDemo from '@/components/practice/SlotDemo.vue'
+// import shallowDemo from '@/components/practice/shallowDemo.vue'
+// import SlotDemo from '@/components/practice/SlotDemo.vue'
+import WatchEffectDemo from '@/components/practice/WatchEffectDemo.vue'
 
 // 获取depose 变量 函数
 const refDemo = ref()
