@@ -1,1 +1,1 @@
-// declare module 'echarts'
+declare module 'vite-plugin-vue-setup-extend'

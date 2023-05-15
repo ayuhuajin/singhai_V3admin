@@ -121,13 +121,6 @@ onMounted(() => {
   console.log('watch模板')
 })
 </script>
-<script lang="ts">
-export default {
-  name: 'WatchDemo'
-  // inheritAttrs: false,
-  // customOptions: {}
-}
-</script>
 <style scoped lang="scss">
 @import '@/assets/common.scss';
 </style>

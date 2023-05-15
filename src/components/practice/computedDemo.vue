@@ -42,13 +42,6 @@ onDeactivated(() => {
   console.log('onDeactivated')
 })
 </script>
-<script lang="ts">
-export default {
-  name: 'ComputedDemo'
-  // inheritAttrs: false,
-  // customOptions: {}
-}
-</script>
 <style scoped lang="scss">
 @import '@/assets/common.scss';
 </style>
