@@ -1,5 +1,8 @@
 <template>
-  路由 练习场
+  <div class="demo-tile">
+    <el-button type="primary">路由 练习场</el-button>
+  </div>
+
   <RouterLink to="/">Home</RouterLink>
   <RouterLink to="/about">About</RouterLink>
   <el-button @click="routerPushByParams">路由跳转params</el-button>
@@ -35,4 +38,6 @@ onMounted(() => {
   // console.log(router, proxy)
 })
 </script>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+@import '@/assets/common.scss';
+</style>

@@ -1,4 +1,8 @@
-<template>练习</template>
+<template>
+  <div class="demo-tile">
+    <el-button type="primary">AxiosDemo 练习场</el-button>
+  </div>
+</template>
 <script setup lang="ts">
 import { getName } from '@/api/common'
 let name = await getName()
@@ -9,4 +13,6 @@ onMounted(() => {
   console.log('模板')
 })
 </script>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+@import '@/assets/common.scss';
+</style>

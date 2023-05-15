@@ -1,4 +1,8 @@
-<template>练习reactive</template>
+<template>
+  <div class="demo-tile">
+    <el-button type="primary">练习reactive</el-button>
+  </div>
+</template>
 <script setup lang="ts">
 interface User {
   name: string
@@ -16,4 +20,6 @@ onMounted(() => {
   console.log('reactive模板')
 })
 </script>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+@import '@/assets/common.scss';
+</style>

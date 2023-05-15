@@ -1,4 +1,7 @@
 <template>
+  <div class="demo-tile">
+    <el-button type="primary">练习ref</el-button>
+  </div>
   <el-button @click="count++"> {{ count }} </el-button>
   <div @click="clickThis">点击这里传递emit 事件出去{{ msg }}</div>
 </template>
@@ -46,4 +49,6 @@ defineExpose({
   deposeFn
 })
 </script>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+@import '@/assets/common.scss';
+</style>

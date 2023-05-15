@@ -1,5 +1,8 @@
 <template>
-  echart练习
+  <div class="demo-tile">
+    <el-button type="primary">echart练习</el-button>
+  </div>
+
   <div id="myEchart" style="width: 30vw; height: 30vw"></div>
 </template>
 <script setup lang="ts">
@@ -78,4 +81,6 @@ onMounted(() => {
   window.addEventListener('resize', (myChart as any).resize)
 })
 </script>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+@import '@/assets/common.scss';
+</style>

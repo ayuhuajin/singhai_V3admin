@@ -1,5 +1,7 @@
 <template>
-  watch练习+
+  <div class="demo-tile">
+    <el-button type="primary"> watch练习+</el-button>
+  </div>
   <div>1.侦听单个数据源及停止侦听</div>
   name:{{ person.name }} age:{{ ageRef }}
   <el-button @click="changeAge">改变年龄</el-button>
@@ -119,4 +121,6 @@ onMounted(() => {
   console.log('watch模板')
 })
 </script>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+@import '@/assets/common.scss';
+</style>

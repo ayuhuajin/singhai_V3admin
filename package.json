@@ -20,6 +20,7 @@
     "echarts": "^5.4.2",
     "element-plus": "^2.3.4",
     "pinia": "^2.0.35",
+    "sass": "^1.62.1",
     "vitepress": "^1.0.0-alpha.75",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
