@@ -7,11 +7,14 @@ import ElementPlus from "element-plus"
 import locale from "element-plus/lib/locale/lang/zh-cn" // 中文语言
 import 'element-plus/dist/index.css'
 
+import * as echarts from 'echarts'
+
 import App from './App.vue'
 import router from './router'
 
 const app = createApp(App)
 // 全局方法挂载
+app.config.globalProperties.$echarts = echarts
 app.config.globalProperties.useDict = '444'
 
 app.use(createPinia())
