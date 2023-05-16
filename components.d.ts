@@ -12,6 +12,7 @@ declare module '@vue/runtime-core' {
     AxiosDemo: typeof import('./src/components/practice/AxiosDemo.vue')['default']
     ComputedDemo: typeof import('./src/components/practice/computedDemo.vue')['default']
     copy: typeof import('./src/components/practice/template copy.vue')['default']
+    CustomRefDemo: typeof import('./src/components/practice/CustomRefDemo.vue')['default']
     EchartDemo: typeof import('./src/components/practice/EchartDemo.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
     KeepAlive: typeof import('./src/components/practice/KeepAlive.vue')['default']
@@ -26,6 +27,8 @@ declare module '@vue/runtime-core' {
     SlotDemo: typeof import('./src/components/practice/SlotDemo.vue')['default']
     SlotSub: typeof import('./src/components/practice/SlotSub.vue')['default']
     Template: typeof import('./src/components/practice/template.vue')['default']
+    ToRefsDemo: typeof import('./src/components/practice/ToRefsDemo.vue')['default']
+    ToRowDemo: typeof import('./src/components/practice/ToRowDemo.vue')['default']
     WatchDemo: typeof import('./src/components/practice/WatchDemo.vue')['default']
     WatchEffectDemo: typeof import('./src/components/practice/WatchEffectDemo.vue')['default']
   }
