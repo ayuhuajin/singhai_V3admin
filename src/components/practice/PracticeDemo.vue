@@ -26,7 +26,7 @@ import RefDemo from '@/components/practice/RefDemo.vue'
 // import KeepAliveDemo from '@/components/practice/KeepAlive.vue'
 // import shallowDemo from '@/components/practice/shallowDemo.vue'
 // import SlotDemo from '@/components/practice/SlotDemo.vue'
-import WatchEffectDemo from '@/components/practice/WatchEffectDemo.vue'
+// import WatchEffectDemo from '@/components/practice/WatchEffectDemo.vue'
 
 // 获取depose 变量 函数
 const refDemo = ref()
