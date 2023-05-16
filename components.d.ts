@@ -11,11 +11,13 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     AxiosDemo: typeof import('./src/components/practice/AxiosDemo.vue')['default']
     ComputedDemo: typeof import('./src/components/practice/computedDemo.vue')['default']
+    copy: typeof import('./src/components/practice/template copy.vue')['default']
     EchartDemo: typeof import('./src/components/practice/EchartDemo.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
     KeepAlive: typeof import('./src/components/practice/KeepAlive.vue')['default']
     PracticeDemo: typeof import('./src/components/practice/PracticeDemo.vue')['default']
     ReactiveDemo: typeof import('./src/components/practice/ReactiveDemo.vue')['default']
+    ReadOnlyDemo: typeof import('./src/components/practice/ReadOnlyDemo.vue')['default']
     RefDemo: typeof import('./src/components/practice/RefDemo.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterUse: typeof import('./src/components/practice/RouterUse.vue')['default']

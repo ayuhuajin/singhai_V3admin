@@ -12,7 +12,8 @@
   <KeepAliveDemo></KeepAliveDemo>
   <shallowDemo></shallowDemo>
   <SlotDemo></SlotDemo> -->
-  <WatchEffectDemo></WatchEffectDemo>
+  <!-- <WatchEffectDemo></WatchEffectDemo> -->
+  <ReadOnlyDemo></ReadOnlyDemo>
 </template>
 <script setup lang="ts">
 import { useMouse } from '@/hooks/practice/useMouse'
