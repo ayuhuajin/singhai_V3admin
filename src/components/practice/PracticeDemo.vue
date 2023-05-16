@@ -16,7 +16,7 @@
   <!-- <ReadOnlyDemo></ReadOnlyDemo> -->
   <ToRefsDemo></ToRefsDemo>
   <ToRowDemo></ToRowDemo>
-  <!-- <CustomRefDemo></CustomRefDemo> -->
+  <CustomRefDemo></CustomRefDemo>
 </template>
 <script setup lang="ts">
 import { useMouse } from '@/hooks/practice/useMouse'
