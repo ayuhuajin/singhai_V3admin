@@ -14,9 +14,12 @@
   <SlotDemo></SlotDemo> -->
   <!-- <WatchEffectDemo></WatchEffectDemo> -->
   <!-- <ReadOnlyDemo></ReadOnlyDemo> -->
-  <ToRefsDemo></ToRefsDemo>
+  <!-- <ToRefsDemo></ToRefsDemo>
   <ToRowDemo></ToRowDemo>
-  <CustomRefDemo></CustomRefDemo>
+  <CustomRefDemo></CustomRefDemo> -->
+  <TeleportDemo></TeleportDemo>
+  <div id="app"></div>
+  <div id="teleport-target"></div>
 </template>
 <script setup lang="ts">
 import { useMouse } from '@/hooks/practice/useMouse'
