@@ -21,6 +21,7 @@
   <div id="app"></div>
   <div id="teleport-target"></div> -->
   <DirectiveDemo></DirectiveDemo>
+  <TransitionDemo></TransitionDemo>
 </template>
 <script setup lang="ts">
 import { useMouse } from '@/hooks/practice/useMouse'

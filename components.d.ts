@@ -33,6 +33,8 @@ declare module '@vue/runtime-core' {
     Template: typeof import('./src/components/practice/template.vue')['default']
     ToRefsDemo: typeof import('./src/components/practice/ToRefsDemo.vue')['default']
     ToRowDemo: typeof import('./src/components/practice/ToRowDemo.vue')['default']
+    TransitionDemo: typeof import('./src/components/practice/TransitionDemo.vue')['default']
+    TranstitionDemo: typeof import('./src/components/practice/transtitionDemo.vue')['default']
     WatchDemo: typeof import('./src/components/practice/WatchDemo.vue')['default']
     WatchEffectDemo: typeof import('./src/components/practice/WatchEffectDemo.vue')['default']
   }
