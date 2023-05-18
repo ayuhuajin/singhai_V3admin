@@ -13,6 +13,8 @@ declare module '@vue/runtime-core' {
     ComputedDemo: typeof import('./src/components/practice/computedDemo.vue')['default']
     copy: typeof import('./src/components/practice/template copy.vue')['default']
     CustomRefDemo: typeof import('./src/components/practice/CustomRefDemo.vue')['default']
+    DirectDemo: typeof import('./src/components/practice/directDemo.vue')['default']
+    DirectiveDemo: typeof import('./src/components/practice/DirectiveDemo.vue')['default']
     EchartDemo: typeof import('./src/components/practice/EchartDemo.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElDialog: typeof import('element-plus/es')['ElDialog']

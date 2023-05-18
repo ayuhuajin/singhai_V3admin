@@ -25,5 +25,17 @@ app.use(ElementPlus, {
   // 支持 large、default、small
   size: "default",
 })
-
+// 自定义指令  自动聚焦
+app.directive('focus', {
+  mounted(el) {
+    el.focus();
+  }
+})
+//自定义指令, 给输入的值进行反转
+app.directive('reserve', {
+  beforeUpdate(el, binding) {
+    console.log(binding)
+    el.innerText = binding.value ? binding.value.split('').reverse().join('') : ''
+  }
+})
 app.mount('#app')

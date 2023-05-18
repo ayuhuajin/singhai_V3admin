@@ -17,9 +17,10 @@
   <!-- <ToRefsDemo></ToRefsDemo>
   <ToRowDemo></ToRowDemo>
   <CustomRefDemo></CustomRefDemo> -->
-  <TeleportDemo></TeleportDemo>
+  <!-- <TeleportDemo></TeleportDemo>
   <div id="app"></div>
-  <div id="teleport-target"></div>
+  <div id="teleport-target"></div> -->
+  <DirectiveDemo></DirectiveDemo>
 </template>
 <script setup lang="ts">
 import { useMouse } from '@/hooks/practice/useMouse'
